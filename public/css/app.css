@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Belgrano);
+
+/* GENERAL STUFF */
+
+body{	background: #EFEDED url("../img/bg_site_light.png") repeat bottom left; }
+a{color:#AF2330;}
+
+small{font-size:80%;}
+ul {list-style: circle;}
+.thumbnail{background-color: white;}
+a.thumbnail:hover {border-color: #AF2330;}
+.well{background-color: white;}
+
+.icon-red { background-image: url("../img/glyphicons-halflings-red.png");}
+.icon-green { background-image: url("../img/glyphicons-halflings-green.png");}
+.green{ color:#468847 !important;}
+.red{ color:#b94a48 !important;}
+.gray{ color:#9E9E9E!important}
+
+
+/* HEADER STYLES */
+
+.header{
+	background-color:#AF2330;
+	padding-top:6px;
+	padding-bottom:6px;
+	margin-bottom:20px;	
+	font-family: 'Georgia', 'Courier New', Courier, 'Times New Roman';
+	color:#fff;
+}
+	.header h1, .main .hero-unit, .main h3, .main h2{	font-family: 'Belgrano', serif; }
+	.header span{
+		font-size:60%;
+		color:#eee;
+	}
+
+
+/* MAIN BODY STYLES */
+
+.main{}
+	.main h3{
+		font-weight:normal;
+		text-align:center;
+		margin-bottom:5px;
+	}
+	.main .hero-unit{
+		background-color: #444;
+		color: white;
+	}
+	.intercept{
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.intercept hr, #footer hr{border-top: 1px solid #ccc;}
+
+
+/* FOOTER STYLES */
+
+.footer{
+	text-align:center;
+	color:#999;
+}
+
+
+
+/* MEDIA QUERIES ADJUSTMENTS */ 
+
+@media (max-width: 640px) {
+	.header h1{ text-align:center; }
+	.hero-unit { padding:30px; }
+	.hero-unit h1 {	font-size: 40px; }
+}
